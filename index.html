@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="blizz">
+<head>
+  	<meta charset="utf-8" />
+    <title>Twitch.tv Search Stream</title>
+  	<link rel="stylesheet" type="text/css" href="custom.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script type='text/javascript' src='custom.js'></script>
+</head>
+<body>
+	<!-- 1st part-->
+	<h1>Twitch.tv Search Stream</h1>
+
+	<div class="input-group">
+      
+      <input type="text" class="form-control" id="mySearch" placeholder="Seach for a Game">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="submit" onclick="searchFunction()">Search</button>
+      </span>
+    </div>
+
+    <hr>
+
+    <div class="col-sm-6" id ="results"></div>
+    <div class="paging col-sm-6" id="paging"> 
+    	
+    </div>
+    <br>
+    
+
+
+    <div id="streams"></div>
+
+</body>
+</html>

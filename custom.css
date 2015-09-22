@@ -1,0 +1,20 @@
+body{
+	padding-right: 50px;
+	padding-left: 50px;
+
+
+}
+h1 {
+	text-align: center;
+	color: red;
+}
+
+.paging {
+	text-align: right;
+}
+
+#thumbnail {
+	float: left;
+	margin-right: 10px;
+}
+
