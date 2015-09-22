@@ -1,12 +1,13 @@
 body{
 	padding-right: 50px;
 	padding-left: 50px;
-
+	background: #000000;
+	background: url("background.png");
+	color: white;
 
 }
 h1 {
 	text-align: center;
-	color: red;
 }
 
 .paging {

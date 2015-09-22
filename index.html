@@ -3,17 +3,19 @@
 <head>
   	<meta charset="utf-8" />
     <title>Twitch.tv Search Stream</title>
-  	<link rel="stylesheet" type="text/css" href="custom.css">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<script type='text/javascript' src='custom.js'></script>
+      <link rel="stylesheet" type="text/css" href="custom.css">
+
 </head>
 <body>
 	<!-- 1st part-->
-	<h1>Twitch.tv Search Stream</h1>
+  <div class="back">
+  	<h1>Twitch.tv Search Stream</h1>
 
 	<div class="input-group">
-      
+
       <input type="text" class="form-control" id="mySearch" placeholder="Seach for a Game">
       <span class="input-group-btn">
         <button class="btn btn-default" type="submit" onclick="searchFunction()">Search</button>
@@ -31,6 +33,9 @@
 
 
     <div id="streams"></div>
+
+    </div>
+
 
 </body>
 </html>

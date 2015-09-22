@@ -42,14 +42,3 @@ function searchFunction() {
     	document.getElementById("streams").innerHTML = out;
 	}
 }
-
-/*
-	<div>
-    	<img src="cinqueterre.jpg" class="img-thumbnail" id="thumbnail" alt="Cinque Terre" width="304" height="236">
-    	<div>
-	    	<h2>Stream Display Name</h2>
-	  		<div><p>Game name - # of views </p></div>
-	  		<div><p>Description</p></div>
-  		</div>
-    </div>
-*/
